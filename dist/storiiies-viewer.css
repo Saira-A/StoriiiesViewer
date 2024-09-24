@@ -3,21 +3,22 @@
   --storiiies-viewer-outer-spacing: 16px;
   --storiiies-viewer-row-gap: 16px;
   --storiiies-viewer-col-gap: 16px;
-  --storiiies-viewer-bg: #fff;
-  --storiiies-viewer-fg: #111;
+  --storiiies-viewer-bg: #d4c6af;
+  --storiiies-viewer-fg: #5b1911;
   --storiiies-viewer-button-bg: var(--storiiies-viewer-bg);
   --storiiies-viewer-button-fg: var(--storiiies-viewer-fg);
   --storiiies-viewer-button-hover-bg: var(--storiiies-viewer-button-fg);
   --storiiies-viewer-button-hover-fg: var(--storiiies-viewer-button-bg);
   --storiiies-viewer-accent-outer: var(--storiiies-viewer-button-hover-bg);
   --storiiies-viewer-accent-inner: var(--storiiies-viewer-button-hover-fg);
-  --storiiies-viewer-font-family: sans-serif;
-  --storiiies-viewer-font-size: 16px;
+  --storiiies-viewer-font-family: serif;
+  --storiiies-viewer-font-size: 18px;
   --storiiies-viewer-line-height: 1.2;
   --storiiies-viewer-title-font-size: 20px;
   --storiiies-viewer-title-line-height: 1.2;
   --storiiies-viewer-transition-speed: 0.4s;
   --storiiies-viewer-scroll-size: 8px;
+
   position: relative;
   inline-size: 100%;
   overflow: hidden;
