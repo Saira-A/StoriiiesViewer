@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/src/css/styles.css" />
+    <link rel="stylesheet" href="dist/storiiies-viewer.css" />
     <style>
       html,
       body {
@@ -12,14 +12,14 @@
       }
     </style>
     <script type="module">
-      import StoriiiesViewer from "/src/StoriiiesViewer.ts";
+      import StoriiiesViewer from "./dist/StoriiiesViewer.js";
       document.addEventListener("DOMContentLoaded", () => {
         const container = document.querySelector("#viewer");
 
         window.storiiiesViewerInstance = new StoriiiesViewer({
           container,
           manifestUrl:
-            "http://localhost:43110/manifests/standard-v3/manifest.json",
+            "https://gist.githubusercontent.com/Saira-A/44640721c7a7a3361d9fa23adf42a5da/raw/455a29789ce1c49a3be766d59b345550ce73cb93/egerton.json",
         });
       });
     </script>
