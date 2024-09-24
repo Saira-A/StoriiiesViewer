@@ -1,6 +1,6 @@
 .vscode
 node_modules
-dist
+// dist
 cypress/downloads
 cypress/screenshots
 cypress/videos
