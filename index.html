@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/src/css/styles.css" />
+  <link rel="stylesheet" href="dist/storiiies-viewer.css" />
   <style>
     html, body {
       margin: 0;
@@ -11,7 +11,7 @@
     }
   </style>
   <script type="module">
-    import StoriiiesViewer from "/dist/esm/storiiies-viewer.js"; // Update this path if necessary
+    import StoriiiesViewer from "https://saira-a.github.io/StoriiiesViewer/dist/esm/storiiies-viewer.js";
     document.addEventListener("DOMContentLoaded", () => {
       const container = document.querySelector("#viewer");
       const urlParams = new URLSearchParams(window.location.search);
