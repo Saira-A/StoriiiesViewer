@@ -99,7 +99,7 @@ export default class StoriiiesViewer {
   /** Whether to display the closing credit slide. Defaults to true, can be overriden in StoriiiesViewerConfig
    * @readonly
    */
-  public showCreditSlide: boolean = true;
+  public showCreditSlide: boolean = false;
   /** The URL for the IIIF manifest loaded into this instance */
   public manifestUrl: string;
   /** ID used for creating id attributes that shouldn't clash, or referencing a particular instance of StoriiiesViewer
@@ -177,7 +177,7 @@ export default class StoriiiesViewer {
     this.manifestUrl = config.manifestUrl;
 
     // Use the provided preference if present
-    this.showCreditSlide = config.showCreditSlide ?? true;
+    this.showCreditSlide = config.showCreditSlide ?? false;
 
     // Throw if the required config is missing and halt instantiation
     if (!this.containerElement || !this.manifestUrl) {

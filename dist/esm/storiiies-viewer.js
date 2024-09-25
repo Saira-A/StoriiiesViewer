@@ -13975,7 +13975,7 @@ const zt = class zt {
         "Manifest doesn't contain a label. This is required by the IIIF Presentation API"
       ],
       "no-ext-anno": ["warn", "External annotationPages are not supported"]
-    }), this.containerElement = null, this.showCreditSlide = !0, this.label = "", this.annotationPages = [], this.activeCanvasAnnotations = [], this.DOMPurifyConfig = {
+    }), this.containerElement = null, this.showCreditSlide = !1, this.label = "", this.annotationPages = [], this.activeCanvasAnnotations = [], this.DOMPurifyConfig = {
       ALLOWED_TAGS: [
         "a",
         "b",
@@ -13990,7 +13990,7 @@ const zt = class zt {
         "sup"
       ],
       ALLOWED_ATTR: ["href"]
-    }, typeof n.container == "string" ? this.containerElement = document.querySelector(n.container) : n.container instanceof HTMLElement && (this.containerElement = n.container), this.containerElement === null && ce(this, Be, We).call(this, "bad-container", !0), this.manifestUrl = n.manifestUrl, this.showCreditSlide = n.showCreditSlide ?? !0, (!this.containerElement || !this.manifestUrl) && ce(this, Be, We).call(this, "bad-config", !0), this.instanceId = vi(zt, bt)._++, ye(this, $e, window.matchMedia(
+    }, typeof n.container == "string" ? this.containerElement = document.querySelector(n.container) : n.container instanceof HTMLElement && (this.containerElement = n.container), this.containerElement === null && ce(this, Be, We).call(this, "bad-container", !0), this.manifestUrl = n.manifestUrl, this.showCreditSlide = n.showCreditSlide ?? !1, (!this.containerElement || !this.manifestUrl) && ce(this, Be, We).call(this, "bad-config", !0), this.instanceId = vi(zt, bt)._++, ye(this, $e, window.matchMedia(
       "(prefers-reduced-motion: reduce)"
     ).matches), ce(this, At, en).call(this).then(() => {
       var e;
