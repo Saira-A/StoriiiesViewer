@@ -53,12 +53,13 @@
   inline-size: 44px;
   color: var(--storiiies-viewer-button-fg);
   cursor: pointer;
-  background: var(--storiiies-viewer-button-bg);
-  block-size: 44px;
+  background: rgb(var(--storiiies-viewer-button-bg-rgb) 0.8);
   border-radius: 50%;
+  opacity: 0.8;
   transition:
     color 0.1s,
     background 0.1s;
+  block-size: 44px;
 }
 
 .storiiies-viewer__icon-button:disabled {
@@ -93,15 +94,16 @@
 
 .storiiies-viewer__info-area {
   display: grid;
-  block-size: 50cqb;
   grid-template-rows: 44px 1fr;
   grid-template-columns: 1fr repeat(2, 44px);
   gap: var(--storiiies-viewer-row-gap) var(--storiiies-viewer-col-gap);
   padding: var(--storiiies-viewer-outer-spacing);
   color: var(--storiiies-viewer-fg);
   background: var(--storiiies-viewer-bg);
-  opacity: 1;
+  border-radius: 10px;
+  opacity: 0.8;
   translate: 0 0;
+  block-size: 50cqb;
 }
 
 .storiiies-viewer__info-area--hidden {
