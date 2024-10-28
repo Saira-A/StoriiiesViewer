@@ -53,9 +53,9 @@
   inline-size: 44px;
   color: var(--storiiies-viewer-button-fg);
   cursor: pointer;
-  background: rgb(var(--storiiies-viewer-button-bg-rgb) 0.8);
+  background: var(--storiiies-viewer-button-bg);
   border-radius: 50%;
-  opacity: 0.8;
+  opacity: 0.9;
   transition:
     color 0.1s,
     background 0.1s;
@@ -101,7 +101,7 @@
   color: var(--storiiies-viewer-fg);
   background: var(--storiiies-viewer-bg);
   border-radius: 10px;
-  opacity: 0.8;
+  opacity: 0.9;
   translate: 0 0;
   block-size: 50cqb;
 }
